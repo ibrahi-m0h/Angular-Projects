@@ -11,9 +11,7 @@ import { HomeComponent } from './home/home.component';
     <app-home />
   `,
   styles: [`
-    p {
-      background-color: red
-    }
+   
   `],
 })
 export class AppComponent {
