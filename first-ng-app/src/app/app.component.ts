@@ -8,10 +8,14 @@ import { HomeComponent } from './home/home.component';
   imports: [RouterOutlet, HeaderComponent, HomeComponent],
   template: `
     <app-header />
-    <app-home />
+    <main>
+      <app-home />
+    </main>
   `,
   styles: [`
-   
+   main {
+    padding: 16px;
+   }
   `],
 })
 export class AppComponent {
