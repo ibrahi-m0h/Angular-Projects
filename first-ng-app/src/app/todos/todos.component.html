@@ -1,1 +1,9 @@
-<p>todos works!</p>
+<h3>
+    <ul class="todos">
+        @for (todo of todoItems(); track todo.id) {
+            <li class="todos__item">
+                <input type="checkbox" [value]="todo.completed"><h4>{{todo.title}}</h4>
+            </li>
+        }
+    </ul>
+</h3>
